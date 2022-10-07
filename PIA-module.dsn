@@ -1,0 +1,1592 @@
+(pcb "C:\Users\Julian\Documents\KiCad\6.0\projects\PIA-module\PIA-module.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(6.0.1)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  191618 -149074  91795.6 -149074  91795.6 -49252.2  191618 -49252.2
+            191618 -149074)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical
+      (place PL2 138684.000000 -101803.200000 front -90.000000 (PN Conn_01x16_Male))
+      (place PL1 182168.800000 -101854.000000 front -90.000000 (PN Conn_01x16_Male))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x32_P2.54mm_Vertical
+      (place J11 102260.400000 -81483.200000 front 90.000000 (PN Conn_01x32))
+      (place J10 102260.400000 -89255.600000 front 90.000000 (PN Conn_01x32))
+      (place J9 102260.400000 -78892.400000 front 90.000000 (PN Conn_01x32))
+      (place J8 102260.400000 -94437.200000 front 90.000000 (PN Conn_01x32))
+      (place J7 102260.400000 -86664.800000 front 90.000000 (PN Conn_01x32))
+      (place J6 102260.400000 -76301.600000 front 90.000000 (PN Conn_01x32))
+      (place J5 102260.400000 -91846.400000 front 90.000000 (PN Conn_01x32))
+      (place J4 102260.400000 -84074.000000 front 90.000000 (PN Conn_01x32))
+    )
+    (component "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+      (place U4 141478.000000 -130759.200000 front 90.000000 (PN 74AHC1G04))
+    )
+    (component "Package_DIP:DIP-40_W15.24mm"
+      (place U5 178709.400000 -108046.600000 front -90.000000 (PN 6821))
+    )
+    (component "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+      (place U3 148945.600000 -133350.000000 front 90.000000 (PN 74HC21))
+      (place U2 133502.400000 -133350.000000 front 90.000000 (PN 74HC21))
+      (place U1 161340.800000 -133400.800000 front 90.000000 (PN 74HC02))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_2x30_P2.54mm_Vertical
+      (place J3 185267.600000 -141325.600000 front -90.000000 (PN Conn_02x30_Odd_Even))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+      (place J2 96621.600000 -53594.000000 front 0.000000 (PN Conn_01x02_Male))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::1
+      (place J1 186791.600000 -53594.000000 front 0.000000 (PN Conn_01x02_Male))
+    )
+    (component Capacitor_SMD:C_0805_2012Metric
+      (place C1 125933.200000 -108051.600000 front 180.000000 (PN 1uF))
+    )
+  )
+  (library
+    (image Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical
+      (outline (path signal 120  1330 -1270  1330 -39430))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -39430  1330 -39430))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -39430))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 50  1800 -39900  1800 1800))
+      (outline (path signal 50  -1800 -39900  1800 -39900))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -39900))
+      (outline (path signal 100  1270 -39370  -1270 -39370))
+      (outline (path signal 100  1270 1270  1270 -39370))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 -39370  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 12 0 -27940)
+      (pin Oval[A]Pad_1700x1700_um 13 0 -30480)
+      (pin Oval[A]Pad_1700x1700_um 14 0 -33020)
+      (pin Oval[A]Pad_1700x1700_um 15 0 -35560)
+      (pin Oval[A]Pad_1700x1700_um 16 0 -38100)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x32_P2.54mm_Vertical
+      (outline (path signal 120  -1330 -80070  1330 -80070))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  1330 -1270  1330 -80070))
+      (outline (path signal 120  -1330 -1270  -1330 -80070))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  -1800 1800  -1800 -80550))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  -1800 -80550  1800 -80550))
+      (outline (path signal 50  1800 -80550  1800 1800))
+      (outline (path signal 100  1270 1270  1270 -80010))
+      (outline (path signal 100  -1270 -80010  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 -80010  -1270 -80010))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 12 0 -27940)
+      (pin Oval[A]Pad_1700x1700_um 13 0 -30480)
+      (pin Oval[A]Pad_1700x1700_um 14 0 -33020)
+      (pin Oval[A]Pad_1700x1700_um 15 0 -35560)
+      (pin Oval[A]Pad_1700x1700_um 16 0 -38100)
+      (pin Oval[A]Pad_1700x1700_um 17 0 -40640)
+      (pin Oval[A]Pad_1700x1700_um 18 0 -43180)
+      (pin Oval[A]Pad_1700x1700_um 19 0 -45720)
+      (pin Oval[A]Pad_1700x1700_um 20 0 -48260)
+      (pin Oval[A]Pad_1700x1700_um 21 0 -50800)
+      (pin Oval[A]Pad_1700x1700_um 22 0 -53340)
+      (pin Oval[A]Pad_1700x1700_um 23 0 -55880)
+      (pin Oval[A]Pad_1700x1700_um 24 0 -58420)
+      (pin Oval[A]Pad_1700x1700_um 25 0 -60960)
+      (pin Oval[A]Pad_1700x1700_um 26 0 -63500)
+      (pin Oval[A]Pad_1700x1700_um 27 0 -66040)
+      (pin Oval[A]Pad_1700x1700_um 28 0 -68580)
+      (pin Oval[A]Pad_1700x1700_um 29 0 -71120)
+      (pin Oval[A]Pad_1700x1700_um 30 0 -73660)
+      (pin Oval[A]Pad_1700x1700_um 31 0 -76200)
+      (pin Oval[A]Pad_1700x1700_um 32 0 -78740)
+    )
+    (image "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+      (outline (path signal 120  -700 -1160  700 -1160))
+      (outline (path signal 120  700 1160  -1200 1160))
+      (outline (path signal 50  -1600 -1400  1600 -1400))
+      (outline (path signal 50  -1600 1400  1600 1400))
+      (outline (path signal 50  1600 -1400  1600 1400))
+      (outline (path signal 50  -1600 1400  -1600 -1400))
+      (outline (path signal 100  675 1100  675 -1100))
+      (outline (path signal 100  -175 1100  -675 600))
+      (outline (path signal 100  675 1100  -175 1100))
+      (outline (path signal 100  675 -1100  -675 -1100))
+      (outline (path signal 100  -675 600  -675 -1100))
+      (pin Rect[T]Pad_650x400_um 1 -950 650)
+      (pin Rect[T]Pad_650x400_um 2 -950 0)
+      (pin Rect[T]Pad_650x400_um 3 -950 -650)
+      (pin Rect[T]Pad_650x400_um 4 950 -650)
+      (pin Rect[T]Pad_650x400_um 5 950 650)
+    )
+    (image "Package_DIP:DIP-40_W15.24mm"
+      (outline (path signal 100  1255 1270  14985 1270))
+      (outline (path signal 100  255 270  1255 1270))
+      (outline (path signal 100  14985 -49530  255 -49530))
+      (outline (path signal 100  255 -49530  255 270))
+      (outline (path signal 100  14985 1270  14985 -49530))
+      (outline (path signal 50  -1050 1550  -1050 -49800))
+      (outline (path signal 50  16300 -49800  16300 1550))
+      (outline (path signal 50  -1050 -49800  16300 -49800))
+      (outline (path signal 50  16300 1550  -1050 1550))
+      (outline (path signal 0  7662.43 2372.43  7680 2330  7662.43 2287.57  7620 2270  7436.61 2251.94
+            7260.28 2198.45  7097.76 2111.58  6955.32 1994.68  6838.42 1852.24
+            6751.55 1689.72  6698.06 1513.38  6680 1330  6698.06 1146.62
+            6751.55 970.278  6838.42 807.764  6955.32 665.32  7097.76 548.419
+            7260.28 461.553  7436.61 408.062  7620 390  7662.43 372.426
+            7680 330  7662.43 287.574  7620 270  7425.23 288.049  7237.08 341.579
+            7061.98 428.77  6905.88 546.651  6774.1 691.207  6671.13 857.517
+            6600.47 1039.92  6564.52 1232.2  6564.52 1427.8  6600.47 1620.08
+            6671.13 1802.48  6774.1 1968.79  6905.88 2113.35  7061.98 2231.23
+            7237.08 2318.42  7425.23 2371.95  7620 2390))
+      (outline (path signal 120  6620 1330  1160 1330))
+      (outline (path signal 120  14080 1330  8620 1330))
+      (outline (path signal 120  1160 1330  1160 -49590))
+      (outline (path signal 120  1160 -49590  14080 -49590))
+      (outline (path signal 120  14080 -49590  14080 1330))
+      (pin Oval[A]Pad_1600x1600_um 40 15240 0)
+      (pin Oval[A]Pad_1600x1600_um 39 15240 -2540)
+      (pin Oval[A]Pad_1600x1600_um 38 15240 -5080)
+      (pin Oval[A]Pad_1600x1600_um 37 15240 -7620)
+      (pin Oval[A]Pad_1600x1600_um 36 15240 -10160)
+      (pin Oval[A]Pad_1600x1600_um 35 15240 -12700)
+      (pin Oval[A]Pad_1600x1600_um 34 15240 -15240)
+      (pin Oval[A]Pad_1600x1600_um 33 15240 -17780)
+      (pin Oval[A]Pad_1600x1600_um 32 15240 -20320)
+      (pin Oval[A]Pad_1600x1600_um 31 15240 -22860)
+      (pin Oval[A]Pad_1600x1600_um 30 15240 -25400)
+      (pin Oval[A]Pad_1600x1600_um 29 15240 -27940)
+      (pin Oval[A]Pad_1600x1600_um 28 15240 -30480)
+      (pin Oval[A]Pad_1600x1600_um 27 15240 -33020)
+      (pin Oval[A]Pad_1600x1600_um 26 15240 -35560)
+      (pin Oval[A]Pad_1600x1600_um 25 15240 -38100)
+      (pin Oval[A]Pad_1600x1600_um 24 15240 -40640)
+      (pin Oval[A]Pad_1600x1600_um 23 15240 -43180)
+      (pin Oval[A]Pad_1600x1600_um 22 15240 -45720)
+      (pin Oval[A]Pad_1600x1600_um 21 15240 -48260)
+      (pin Oval[A]Pad_1600x1600_um 20 0 -48260)
+      (pin Oval[A]Pad_1600x1600_um 19 0 -45720)
+      (pin Oval[A]Pad_1600x1600_um 18 0 -43180)
+      (pin Oval[A]Pad_1600x1600_um 17 0 -40640)
+      (pin Oval[A]Pad_1600x1600_um 16 0 -38100)
+      (pin Oval[A]Pad_1600x1600_um 15 0 -35560)
+      (pin Oval[A]Pad_1600x1600_um 14 0 -33020)
+      (pin Oval[A]Pad_1600x1600_um 13 0 -30480)
+      (pin Oval[A]Pad_1600x1600_um 12 0 -27940)
+      (pin Oval[A]Pad_1600x1600_um 11 0 -25400)
+      (pin Oval[A]Pad_1600x1600_um 10 0 -22860)
+      (pin Oval[A]Pad_1600x1600_um 9 0 -20320)
+      (pin Oval[A]Pad_1600x1600_um 8 0 -17780)
+      (pin Oval[A]Pad_1600x1600_um 7 0 -15240)
+      (pin Oval[A]Pad_1600x1600_um 6 0 -12700)
+      (pin Oval[A]Pad_1600x1600_um 5 0 -10160)
+      (pin Oval[A]Pad_1600x1600_um 4 0 -7620)
+      (pin Oval[A]Pad_1600x1600_um 3 0 -5080)
+      (pin Oval[A]Pad_1600x1600_um 2 0 -2540)
+      (pin Rect[A]Pad_1600x1600_um 1 0 0)
+    )
+    (image "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+      (outline (path signal 120  0 -4435  -1950 -4435))
+      (outline (path signal 120  0 4435  1950 4435))
+      (outline (path signal 120  0 -4435  1950 -4435))
+      (outline (path signal 120  0 4435  -3450 4435))
+      (outline (path signal 50  3700 -4580  3700 4580))
+      (outline (path signal 50  3700 4580  -3700 4580))
+      (outline (path signal 50  -3700 4580  -3700 -4580))
+      (outline (path signal 50  -3700 -4580  3700 -4580))
+      (outline (path signal 100  -1950 -4325  -1950 3350))
+      (outline (path signal 100  1950 4325  1950 -4325))
+      (outline (path signal 100  -975 4325  1950 4325))
+      (outline (path signal 100  -1950 3350  -975 4325))
+      (outline (path signal 100  1950 -4325  -1950 -4325))
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 1 -2475 3810)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 2 -2475 2540)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 3 -2475 1270)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 4 -2475 0)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 5 -2475 -1270)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 6 -2475 -2540)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 7 -2475 -3810)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 8 2475 -3810)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 9 2475 -2540)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 10 2475 -1270)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 11 2475 0)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 12 2475 1270)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 13 2475 2540)
+      (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 14 2475 3810)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_2x30_P2.54mm_Vertical
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1270 -1270))
+      (outline (path signal 120  1270 1330  3870 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -74990))
+      (outline (path signal 120  3870 1330  3870 -74990))
+      (outline (path signal 120  1270 -1270  1270 1330))
+      (outline (path signal 120  -1330 -74990  3870 -74990))
+      (outline (path signal 50  4350 -75450  4350 1800))
+      (outline (path signal 50  4350 1800  -1800 1800))
+      (outline (path signal 50  -1800 -75450  4350 -75450))
+      (outline (path signal 50  -1800 1800  -1800 -75450))
+      (outline (path signal 100  -1270 0  0 1270))
+      (outline (path signal 100  3810 -74930  -1270 -74930))
+      (outline (path signal 100  0 1270  3810 1270))
+      (outline (path signal 100  3810 1270  3810 -74930))
+      (outline (path signal 100  -1270 -74930  -1270 0))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 2540 0)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 4 2540 -2540)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 6 2540 -5080)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 8 2540 -7620)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 10 2540 -10160)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 12 2540 -12700)
+      (pin Oval[A]Pad_1700x1700_um 13 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 14 2540 -15240)
+      (pin Oval[A]Pad_1700x1700_um 15 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 16 2540 -17780)
+      (pin Oval[A]Pad_1700x1700_um 17 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 18 2540 -20320)
+      (pin Oval[A]Pad_1700x1700_um 19 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 20 2540 -22860)
+      (pin Oval[A]Pad_1700x1700_um 21 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 22 2540 -25400)
+      (pin Oval[A]Pad_1700x1700_um 23 0 -27940)
+      (pin Oval[A]Pad_1700x1700_um 24 2540 -27940)
+      (pin Oval[A]Pad_1700x1700_um 25 0 -30480)
+      (pin Oval[A]Pad_1700x1700_um 26 2540 -30480)
+      (pin Oval[A]Pad_1700x1700_um 27 0 -33020)
+      (pin Oval[A]Pad_1700x1700_um 28 2540 -33020)
+      (pin Oval[A]Pad_1700x1700_um 29 0 -35560)
+      (pin Oval[A]Pad_1700x1700_um 30 2540 -35560)
+      (pin Oval[A]Pad_1700x1700_um 31 0 -38100)
+      (pin Oval[A]Pad_1700x1700_um 32 2540 -38100)
+      (pin Oval[A]Pad_1700x1700_um 33 0 -40640)
+      (pin Oval[A]Pad_1700x1700_um 34 2540 -40640)
+      (pin Oval[A]Pad_1700x1700_um 35 0 -43180)
+      (pin Oval[A]Pad_1700x1700_um 36 2540 -43180)
+      (pin Oval[A]Pad_1700x1700_um 37 0 -45720)
+      (pin Oval[A]Pad_1700x1700_um 38 2540 -45720)
+      (pin Oval[A]Pad_1700x1700_um 39 0 -48260)
+      (pin Oval[A]Pad_1700x1700_um 40 2540 -48260)
+      (pin Oval[A]Pad_1700x1700_um 41 0 -50800)
+      (pin Oval[A]Pad_1700x1700_um 42 2540 -50800)
+      (pin Oval[A]Pad_1700x1700_um 43 0 -53340)
+      (pin Oval[A]Pad_1700x1700_um 44 2540 -53340)
+      (pin Oval[A]Pad_1700x1700_um 45 0 -55880)
+      (pin Oval[A]Pad_1700x1700_um 46 2540 -55880)
+      (pin Oval[A]Pad_1700x1700_um 47 0 -58420)
+      (pin Oval[A]Pad_1700x1700_um 48 2540 -58420)
+      (pin Oval[A]Pad_1700x1700_um 49 0 -60960)
+      (pin Oval[A]Pad_1700x1700_um 50 2540 -60960)
+      (pin Oval[A]Pad_1700x1700_um 51 0 -63500)
+      (pin Oval[A]Pad_1700x1700_um 52 2540 -63500)
+      (pin Oval[A]Pad_1700x1700_um 53 0 -66040)
+      (pin Oval[A]Pad_1700x1700_um 54 2540 -66040)
+      (pin Oval[A]Pad_1700x1700_um 55 0 -68580)
+      (pin Oval[A]Pad_1700x1700_um 56 2540 -68580)
+      (pin Oval[A]Pad_1700x1700_um 57 0 -71120)
+      (pin Oval[A]Pad_1700x1700_um 58 2540 -71120)
+      (pin Oval[A]Pad_1700x1700_um 59 0 -73660)
+      (pin Oval[A]Pad_1700x1700_um 60 2540 -73660)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+      (outline (path signal 100  1270 1270  1270 -3810))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 -3810  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 -3810  -1270 -3810))
+      (outline (path signal 50  -1800 -4350  1800 -4350))
+      (outline (path signal 50  -1800 1800  -1800 -4350))
+      (outline (path signal 50  1800 -4350  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 120  1330 -1270  1330 -3870))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -3870))
+      (outline (path signal 120  -1330 -3870  1330 -3870))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::1
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -3870  1330 -3870))
+      (outline (path signal 120  -1330 -1270  -1330 -3870))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  1330 -1270  1330 -3870))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -4350  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -4350))
+      (outline (path signal 50  -1800 -4350  1800 -4350))
+      (outline (path signal 100  1270 -3810  -1270 -3810))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -3810  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -3810))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+    )
+    (image Capacitor_SMD:C_0805_2012Metric
+      (outline (path signal 120  -261.252 -735  261.252 -735))
+      (outline (path signal 120  -261.252 735  261.252 735))
+      (outline (path signal 50  1700 -980  -1700 -980))
+      (outline (path signal 50  -1700 -980  -1700 980))
+      (outline (path signal 50  1700 980  1700 -980))
+      (outline (path signal 50  -1700 980  1700 980))
+      (outline (path signal 100  -1000 625  1000 625))
+      (outline (path signal 100  -1000 -625  -1000 625))
+      (outline (path signal 100  1000 -625  -1000 -625))
+      (outline (path signal 100  1000 625  1000 -625))
+      (pin RoundRect[T]Pad_1000x1450_250.951_um_0.000000_0 1 -950 0)
+      (pin RoundRect[T]Pad_1000x1450_250.951_um_0.000000_0 2 950 0)
+    )
+    (padstack Oval[A]Pad_1600x1600_um
+      (shape (path F.Cu 1600  0 0  0 0))
+      (shape (path B.Cu 1600  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1000x1450_250.951_um_0.000000_0
+      (shape (polygon F.Cu 0  -500.951 475  -481.848 571.035  -427.449 652.449  -346.035 706.848
+            -249.999 725.95  250 725.951  346.035 706.848  427.449 652.449
+            481.848 571.035  500.95 474.999  500.951 -475  481.848 -571.035
+            427.449 -652.449  346.035 -706.848  249.999 -725.95  -250 -725.951
+            -346.035 -706.848  -427.449 -652.449  -481.848 -571.035  -500.95 -474.999
+            -500.951 475))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1950x600_150.571_um_0.000000_0
+      (shape (polygon F.Cu 0  -975.571 150  -964.109 207.621  -931.47 256.47  -882.621 289.109
+            -824.999 300.57  825 300.571  882.621 289.109  931.47 256.47
+            964.109 207.621  975.57 149.999  975.571 -150  964.109 -207.621
+            931.47 -256.47  882.621 -289.109  824.999 -300.57  -825 -300.571
+            -882.621 -289.109  -931.47 -256.47  -964.109 -207.621  -975.57 -149.999
+            -975.571 150))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_650x400_um
+      (shape (rect F.Cu -325 -200 325 200))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1600x1600_um
+      (shape (rect F.Cu -800 -800 800 800))
+      (shape (rect B.Cu -800 -800 800 800))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net +5V
+      (pins PL1-1 U4-5 U5-24 U5-22 U5-20 U3-1 U3-9 U3-14 U2-14 U1-14 J3-2 J2-1 J1-1
+        C1-1)
+    )
+    (net GND
+      (pins PL1-15 U4-3 U5-1 U3-7 U2-7 U1-7 J3-60 J2-2 J1-2 C1-2)
+    )
+    (net "unconnected-(J3-Pad1)"
+      (pins J3-1)
+    )
+    (net Clock24
+      (pins J3-3)
+    )
+    (net Clock3
+      (pins PL1-6 J3-4)
+    )
+    (net "unconnected-(J3-Pad5)"
+      (pins J3-5)
+    )
+    (net Clock6
+      (pins J3-6)
+    )
+    (net "~{E}"
+      (pins J3-7)
+    )
+    (net E
+      (pins U5-25 J3-8)
+    )
+    (net "~{Q}"
+      (pins J3-9)
+    )
+    (net Q
+      (pins J3-10)
+    )
+    (net D0
+      (pins U5-33 J3-11)
+    )
+    (net A0
+      (pins U5-36 J3-12)
+    )
+    (net D1
+      (pins U5-32 J3-13)
+    )
+    (net A1
+      (pins U5-35 J3-14)
+    )
+    (net D2
+      (pins U5-31 J3-15)
+    )
+    (net A2
+      (pins U1-5 J3-16)
+    )
+    (net D3
+      (pins U5-30 J3-17)
+    )
+    (net A3
+      (pins U1-6 J3-18)
+    )
+    (net D4
+      (pins U5-29 J3-19)
+    )
+    (net A4
+      (pins U1-8 J3-20)
+    )
+    (net D5
+      (pins U5-28 J3-21)
+    )
+    (net A5
+      (pins U1-9 J3-22)
+    )
+    (net D6
+      (pins U5-27 J3-23)
+    )
+    (net A6
+      (pins U1-11 J3-24)
+    )
+    (net D7
+      (pins U5-26 J3-25)
+    )
+    (net A7
+      (pins U1-12 J3-26)
+    )
+    (net "unconnected-(J3-Pad27)"
+      (pins J3-27)
+    )
+    (net A8
+      (pins U2-1 J3-28)
+    )
+    (net "ROM{slash}~{RAM}"
+      (pins J3-29)
+    )
+    (net A9
+      (pins U2-2 J3-30)
+    )
+    (net Q1
+      (pins PL1-7 J3-31)
+    )
+    (net A10
+      (pins U2-4 J3-32)
+    )
+    (net Q2
+      (pins PL1-8 J3-33)
+    )
+    (net A11
+      (pins U2-5 J3-34)
+    )
+    (net Q3
+      (pins PL1-9 J3-35)
+    )
+    (net A12
+      (pins U2-9 J3-36)
+    )
+    (net Q4
+      (pins PL1-10 J3-37)
+    )
+    (net A13
+      (pins U2-10 J3-38)
+    )
+    (net Q5
+      (pins PL1-11 J3-39)
+    )
+    (net A14
+      (pins U2-12 J3-40)
+    )
+    (net Q6
+      (pins PL1-12 J3-41)
+    )
+    (net A15
+      (pins U2-13 J3-42)
+    )
+    (net Q7
+      (pins PL1-13 J3-43)
+    )
+    (net "unconnected-(J3-Pad44)"
+      (pins J3-44)
+    )
+    (net Q8
+      (pins PL1-14 J3-45)
+    )
+    (net "~{RESET}"
+      (pins U5-34 J3-46)
+    )
+    (net "~{DMA}"
+      (pins J3-47)
+    )
+    (net "~{NMI}"
+      (pins J3-48)
+    )
+    (net "R{slash}~{W}"
+      (pins U5-21 J3-49)
+    )
+    (net "~{FIRQ}"
+      (pins J3-50)
+    )
+    (net "~{HALT}"
+      (pins J3-51)
+    )
+    (net "~{IRQ}"
+      (pins U5-38 U5-37 J3-52)
+    )
+    (net "unconnected-(J3-Pad53)"
+      (pins J3-53)
+    )
+    (net BA
+      (pins J3-54)
+    )
+    (net MRDY
+      (pins J3-55)
+    )
+    (net BS
+      (pins J3-56)
+    )
+    (net "unconnected-(J3-Pad57)"
+      (pins J3-57)
+    )
+    (net "unconnected-(J3-Pad58)"
+      (pins J3-58)
+    )
+    (net "unconnected-(J3-Pad59)"
+      (pins J3-59)
+    )
+    (net "unconnected-(J4-Pad1)"
+      (pins J4-1)
+    )
+    (net "unconnected-(J4-Pad2)"
+      (pins J4-2)
+    )
+    (net "unconnected-(J4-Pad3)"
+      (pins J4-3)
+    )
+    (net "unconnected-(J4-Pad4)"
+      (pins J4-4)
+    )
+    (net "unconnected-(J4-Pad5)"
+      (pins J4-5)
+    )
+    (net "unconnected-(J4-Pad6)"
+      (pins J4-6)
+    )
+    (net "unconnected-(J4-Pad7)"
+      (pins J4-7)
+    )
+    (net "unconnected-(J4-Pad8)"
+      (pins J4-8)
+    )
+    (net "unconnected-(J4-Pad9)"
+      (pins J4-9)
+    )
+    (net "unconnected-(J4-Pad10)"
+      (pins J4-10)
+    )
+    (net "unconnected-(J4-Pad11)"
+      (pins J4-11)
+    )
+    (net "unconnected-(J4-Pad12)"
+      (pins J4-12)
+    )
+    (net "unconnected-(J4-Pad13)"
+      (pins J4-13)
+    )
+    (net "unconnected-(J4-Pad14)"
+      (pins J4-14)
+    )
+    (net "unconnected-(J4-Pad15)"
+      (pins J4-15)
+    )
+    (net "unconnected-(J4-Pad16)"
+      (pins J4-16)
+    )
+    (net "unconnected-(J4-Pad17)"
+      (pins J4-17)
+    )
+    (net "unconnected-(J4-Pad18)"
+      (pins J4-18)
+    )
+    (net "unconnected-(J4-Pad19)"
+      (pins J4-19)
+    )
+    (net "unconnected-(J4-Pad20)"
+      (pins J4-20)
+    )
+    (net "unconnected-(J4-Pad21)"
+      (pins J4-21)
+    )
+    (net "unconnected-(J4-Pad22)"
+      (pins J4-22)
+    )
+    (net "unconnected-(J4-Pad23)"
+      (pins J4-23)
+    )
+    (net "unconnected-(J4-Pad24)"
+      (pins J4-24)
+    )
+    (net "unconnected-(J4-Pad25)"
+      (pins J4-25)
+    )
+    (net "unconnected-(J4-Pad26)"
+      (pins J4-26)
+    )
+    (net "unconnected-(J4-Pad27)"
+      (pins J4-27)
+    )
+    (net "unconnected-(J4-Pad28)"
+      (pins J4-28)
+    )
+    (net "unconnected-(J4-Pad29)"
+      (pins J4-29)
+    )
+    (net "unconnected-(J4-Pad30)"
+      (pins J4-30)
+    )
+    (net "unconnected-(J4-Pad31)"
+      (pins J4-31)
+    )
+    (net "unconnected-(J4-Pad32)"
+      (pins J4-32)
+    )
+    (net "unconnected-(J5-Pad1)"
+      (pins J5-1)
+    )
+    (net "unconnected-(J5-Pad2)"
+      (pins J5-2)
+    )
+    (net "unconnected-(J5-Pad3)"
+      (pins J5-3)
+    )
+    (net "unconnected-(J5-Pad4)"
+      (pins J5-4)
+    )
+    (net "unconnected-(J5-Pad5)"
+      (pins J5-5)
+    )
+    (net "unconnected-(J5-Pad6)"
+      (pins J5-6)
+    )
+    (net "unconnected-(J5-Pad7)"
+      (pins J5-7)
+    )
+    (net "unconnected-(J5-Pad8)"
+      (pins J5-8)
+    )
+    (net "unconnected-(J5-Pad9)"
+      (pins J5-9)
+    )
+    (net "unconnected-(J5-Pad10)"
+      (pins J5-10)
+    )
+    (net "unconnected-(J5-Pad11)"
+      (pins J5-11)
+    )
+    (net "unconnected-(J5-Pad12)"
+      (pins J5-12)
+    )
+    (net "unconnected-(J5-Pad13)"
+      (pins J5-13)
+    )
+    (net "unconnected-(J5-Pad14)"
+      (pins J5-14)
+    )
+    (net "unconnected-(J5-Pad15)"
+      (pins J5-15)
+    )
+    (net "unconnected-(J5-Pad16)"
+      (pins J5-16)
+    )
+    (net "unconnected-(J5-Pad17)"
+      (pins J5-17)
+    )
+    (net "unconnected-(J5-Pad18)"
+      (pins J5-18)
+    )
+    (net "unconnected-(J5-Pad19)"
+      (pins J5-19)
+    )
+    (net "unconnected-(J5-Pad20)"
+      (pins J5-20)
+    )
+    (net "unconnected-(J5-Pad21)"
+      (pins J5-21)
+    )
+    (net "unconnected-(J5-Pad22)"
+      (pins J5-22)
+    )
+    (net "unconnected-(J5-Pad23)"
+      (pins J5-23)
+    )
+    (net "unconnected-(J5-Pad24)"
+      (pins J5-24)
+    )
+    (net "unconnected-(J5-Pad25)"
+      (pins J5-25)
+    )
+    (net "unconnected-(J5-Pad26)"
+      (pins J5-26)
+    )
+    (net "unconnected-(J5-Pad27)"
+      (pins J5-27)
+    )
+    (net "unconnected-(J5-Pad28)"
+      (pins J5-28)
+    )
+    (net "unconnected-(J5-Pad29)"
+      (pins J5-29)
+    )
+    (net "unconnected-(J5-Pad30)"
+      (pins J5-30)
+    )
+    (net "unconnected-(J5-Pad31)"
+      (pins J5-31)
+    )
+    (net "unconnected-(J5-Pad32)"
+      (pins J5-32)
+    )
+    (net "unconnected-(J6-Pad1)"
+      (pins J6-1)
+    )
+    (net "unconnected-(J6-Pad2)"
+      (pins J6-2)
+    )
+    (net "unconnected-(J6-Pad3)"
+      (pins J6-3)
+    )
+    (net "unconnected-(J6-Pad4)"
+      (pins J6-4)
+    )
+    (net "unconnected-(J6-Pad5)"
+      (pins J6-5)
+    )
+    (net "unconnected-(J6-Pad6)"
+      (pins J6-6)
+    )
+    (net "unconnected-(J6-Pad7)"
+      (pins J6-7)
+    )
+    (net "unconnected-(J6-Pad8)"
+      (pins J6-8)
+    )
+    (net "unconnected-(J6-Pad9)"
+      (pins J6-9)
+    )
+    (net "unconnected-(J6-Pad10)"
+      (pins J6-10)
+    )
+    (net "unconnected-(J6-Pad11)"
+      (pins J6-11)
+    )
+    (net "unconnected-(J6-Pad12)"
+      (pins J6-12)
+    )
+    (net "unconnected-(J6-Pad13)"
+      (pins J6-13)
+    )
+    (net "unconnected-(J6-Pad14)"
+      (pins J6-14)
+    )
+    (net "unconnected-(J6-Pad15)"
+      (pins J6-15)
+    )
+    (net "unconnected-(J6-Pad16)"
+      (pins J6-16)
+    )
+    (net "unconnected-(J6-Pad17)"
+      (pins J6-17)
+    )
+    (net "unconnected-(J6-Pad18)"
+      (pins J6-18)
+    )
+    (net "unconnected-(J6-Pad19)"
+      (pins J6-19)
+    )
+    (net "unconnected-(J6-Pad20)"
+      (pins J6-20)
+    )
+    (net "unconnected-(J6-Pad21)"
+      (pins J6-21)
+    )
+    (net "unconnected-(J6-Pad22)"
+      (pins J6-22)
+    )
+    (net "unconnected-(J6-Pad23)"
+      (pins J6-23)
+    )
+    (net "unconnected-(J6-Pad24)"
+      (pins J6-24)
+    )
+    (net "unconnected-(J6-Pad25)"
+      (pins J6-25)
+    )
+    (net "unconnected-(J6-Pad26)"
+      (pins J6-26)
+    )
+    (net "unconnected-(J6-Pad27)"
+      (pins J6-27)
+    )
+    (net "unconnected-(J6-Pad28)"
+      (pins J6-28)
+    )
+    (net "unconnected-(J6-Pad29)"
+      (pins J6-29)
+    )
+    (net "unconnected-(J6-Pad30)"
+      (pins J6-30)
+    )
+    (net "unconnected-(J6-Pad31)"
+      (pins J6-31)
+    )
+    (net "unconnected-(J6-Pad32)"
+      (pins J6-32)
+    )
+    (net "unconnected-(J7-Pad1)"
+      (pins J7-1)
+    )
+    (net "unconnected-(J7-Pad2)"
+      (pins J7-2)
+    )
+    (net "unconnected-(J7-Pad3)"
+      (pins J7-3)
+    )
+    (net "unconnected-(J7-Pad4)"
+      (pins J7-4)
+    )
+    (net "unconnected-(J7-Pad5)"
+      (pins J7-5)
+    )
+    (net "unconnected-(J7-Pad6)"
+      (pins J7-6)
+    )
+    (net "unconnected-(J7-Pad7)"
+      (pins J7-7)
+    )
+    (net "unconnected-(J7-Pad8)"
+      (pins J7-8)
+    )
+    (net "unconnected-(J7-Pad9)"
+      (pins J7-9)
+    )
+    (net "unconnected-(J7-Pad10)"
+      (pins J7-10)
+    )
+    (net "unconnected-(J7-Pad11)"
+      (pins J7-11)
+    )
+    (net "unconnected-(J7-Pad12)"
+      (pins J7-12)
+    )
+    (net "unconnected-(J7-Pad13)"
+      (pins J7-13)
+    )
+    (net "unconnected-(J7-Pad14)"
+      (pins J7-14)
+    )
+    (net "unconnected-(J7-Pad15)"
+      (pins J7-15)
+    )
+    (net "unconnected-(J7-Pad16)"
+      (pins J7-16)
+    )
+    (net "unconnected-(J7-Pad17)"
+      (pins J7-17)
+    )
+    (net "unconnected-(J7-Pad18)"
+      (pins J7-18)
+    )
+    (net "unconnected-(J7-Pad19)"
+      (pins J7-19)
+    )
+    (net "unconnected-(J7-Pad20)"
+      (pins J7-20)
+    )
+    (net "unconnected-(J7-Pad21)"
+      (pins J7-21)
+    )
+    (net "unconnected-(J7-Pad22)"
+      (pins J7-22)
+    )
+    (net "unconnected-(J7-Pad23)"
+      (pins J7-23)
+    )
+    (net "unconnected-(J7-Pad24)"
+      (pins J7-24)
+    )
+    (net "unconnected-(J7-Pad25)"
+      (pins J7-25)
+    )
+    (net "unconnected-(J7-Pad26)"
+      (pins J7-26)
+    )
+    (net "unconnected-(J7-Pad27)"
+      (pins J7-27)
+    )
+    (net "unconnected-(J7-Pad28)"
+      (pins J7-28)
+    )
+    (net "unconnected-(J7-Pad29)"
+      (pins J7-29)
+    )
+    (net "unconnected-(J7-Pad30)"
+      (pins J7-30)
+    )
+    (net "unconnected-(J7-Pad31)"
+      (pins J7-31)
+    )
+    (net "unconnected-(J7-Pad32)"
+      (pins J7-32)
+    )
+    (net "unconnected-(J8-Pad1)"
+      (pins J8-1)
+    )
+    (net "unconnected-(J8-Pad2)"
+      (pins J8-2)
+    )
+    (net "unconnected-(J8-Pad3)"
+      (pins J8-3)
+    )
+    (net "unconnected-(J8-Pad4)"
+      (pins J8-4)
+    )
+    (net "unconnected-(J8-Pad5)"
+      (pins J8-5)
+    )
+    (net "unconnected-(J8-Pad6)"
+      (pins J8-6)
+    )
+    (net "unconnected-(J8-Pad7)"
+      (pins J8-7)
+    )
+    (net "unconnected-(J8-Pad8)"
+      (pins J8-8)
+    )
+    (net "unconnected-(J8-Pad9)"
+      (pins J8-9)
+    )
+    (net "unconnected-(J8-Pad10)"
+      (pins J8-10)
+    )
+    (net "unconnected-(J8-Pad11)"
+      (pins J8-11)
+    )
+    (net "unconnected-(J8-Pad12)"
+      (pins J8-12)
+    )
+    (net "unconnected-(J8-Pad13)"
+      (pins J8-13)
+    )
+    (net "unconnected-(J8-Pad14)"
+      (pins J8-14)
+    )
+    (net "unconnected-(J8-Pad15)"
+      (pins J8-15)
+    )
+    (net "unconnected-(J8-Pad16)"
+      (pins J8-16)
+    )
+    (net "unconnected-(J8-Pad17)"
+      (pins J8-17)
+    )
+    (net "unconnected-(J8-Pad18)"
+      (pins J8-18)
+    )
+    (net "unconnected-(J8-Pad19)"
+      (pins J8-19)
+    )
+    (net "unconnected-(J8-Pad20)"
+      (pins J8-20)
+    )
+    (net "unconnected-(J8-Pad21)"
+      (pins J8-21)
+    )
+    (net "unconnected-(J8-Pad22)"
+      (pins J8-22)
+    )
+    (net "unconnected-(J8-Pad23)"
+      (pins J8-23)
+    )
+    (net "unconnected-(J8-Pad24)"
+      (pins J8-24)
+    )
+    (net "unconnected-(J8-Pad25)"
+      (pins J8-25)
+    )
+    (net "unconnected-(J8-Pad26)"
+      (pins J8-26)
+    )
+    (net "unconnected-(J8-Pad27)"
+      (pins J8-27)
+    )
+    (net "unconnected-(J8-Pad28)"
+      (pins J8-28)
+    )
+    (net "unconnected-(J8-Pad29)"
+      (pins J8-29)
+    )
+    (net "unconnected-(J8-Pad30)"
+      (pins J8-30)
+    )
+    (net "unconnected-(J8-Pad31)"
+      (pins J8-31)
+    )
+    (net "unconnected-(J8-Pad32)"
+      (pins J8-32)
+    )
+    (net "unconnected-(J9-Pad1)"
+      (pins J9-1)
+    )
+    (net "unconnected-(J9-Pad2)"
+      (pins J9-2)
+    )
+    (net "unconnected-(J9-Pad3)"
+      (pins J9-3)
+    )
+    (net "unconnected-(J9-Pad4)"
+      (pins J9-4)
+    )
+    (net "unconnected-(J9-Pad5)"
+      (pins J9-5)
+    )
+    (net "unconnected-(J9-Pad6)"
+      (pins J9-6)
+    )
+    (net "unconnected-(J9-Pad7)"
+      (pins J9-7)
+    )
+    (net "unconnected-(J9-Pad8)"
+      (pins J9-8)
+    )
+    (net "unconnected-(J9-Pad9)"
+      (pins J9-9)
+    )
+    (net "unconnected-(J9-Pad10)"
+      (pins J9-10)
+    )
+    (net "unconnected-(J9-Pad11)"
+      (pins J9-11)
+    )
+    (net "unconnected-(J9-Pad12)"
+      (pins J9-12)
+    )
+    (net "unconnected-(J9-Pad13)"
+      (pins J9-13)
+    )
+    (net "unconnected-(J9-Pad14)"
+      (pins J9-14)
+    )
+    (net "unconnected-(J9-Pad15)"
+      (pins J9-15)
+    )
+    (net "unconnected-(J9-Pad16)"
+      (pins J9-16)
+    )
+    (net "unconnected-(J9-Pad17)"
+      (pins J9-17)
+    )
+    (net "unconnected-(J9-Pad18)"
+      (pins J9-18)
+    )
+    (net "unconnected-(J9-Pad19)"
+      (pins J9-19)
+    )
+    (net "unconnected-(J9-Pad20)"
+      (pins J9-20)
+    )
+    (net "unconnected-(J9-Pad21)"
+      (pins J9-21)
+    )
+    (net "unconnected-(J9-Pad22)"
+      (pins J9-22)
+    )
+    (net "unconnected-(J9-Pad23)"
+      (pins J9-23)
+    )
+    (net "unconnected-(J9-Pad24)"
+      (pins J9-24)
+    )
+    (net "unconnected-(J9-Pad25)"
+      (pins J9-25)
+    )
+    (net "unconnected-(J9-Pad26)"
+      (pins J9-26)
+    )
+    (net "unconnected-(J9-Pad27)"
+      (pins J9-27)
+    )
+    (net "unconnected-(J9-Pad28)"
+      (pins J9-28)
+    )
+    (net "unconnected-(J9-Pad29)"
+      (pins J9-29)
+    )
+    (net "unconnected-(J9-Pad30)"
+      (pins J9-30)
+    )
+    (net "unconnected-(J9-Pad31)"
+      (pins J9-31)
+    )
+    (net "unconnected-(J9-Pad32)"
+      (pins J9-32)
+    )
+    (net "unconnected-(J10-Pad1)"
+      (pins J10-1)
+    )
+    (net "unconnected-(J10-Pad2)"
+      (pins J10-2)
+    )
+    (net "unconnected-(J10-Pad3)"
+      (pins J10-3)
+    )
+    (net "unconnected-(J10-Pad4)"
+      (pins J10-4)
+    )
+    (net "unconnected-(J10-Pad5)"
+      (pins J10-5)
+    )
+    (net "unconnected-(J10-Pad6)"
+      (pins J10-6)
+    )
+    (net "unconnected-(J10-Pad7)"
+      (pins J10-7)
+    )
+    (net "unconnected-(J10-Pad8)"
+      (pins J10-8)
+    )
+    (net "unconnected-(J10-Pad9)"
+      (pins J10-9)
+    )
+    (net "unconnected-(J10-Pad10)"
+      (pins J10-10)
+    )
+    (net "unconnected-(J10-Pad11)"
+      (pins J10-11)
+    )
+    (net "unconnected-(J10-Pad12)"
+      (pins J10-12)
+    )
+    (net "unconnected-(J10-Pad13)"
+      (pins J10-13)
+    )
+    (net "unconnected-(J10-Pad14)"
+      (pins J10-14)
+    )
+    (net "unconnected-(J10-Pad15)"
+      (pins J10-15)
+    )
+    (net "unconnected-(J10-Pad16)"
+      (pins J10-16)
+    )
+    (net "unconnected-(J10-Pad17)"
+      (pins J10-17)
+    )
+    (net "unconnected-(J10-Pad18)"
+      (pins J10-18)
+    )
+    (net "unconnected-(J10-Pad19)"
+      (pins J10-19)
+    )
+    (net "unconnected-(J10-Pad20)"
+      (pins J10-20)
+    )
+    (net "unconnected-(J10-Pad21)"
+      (pins J10-21)
+    )
+    (net "unconnected-(J10-Pad22)"
+      (pins J10-22)
+    )
+    (net "unconnected-(J10-Pad23)"
+      (pins J10-23)
+    )
+    (net "unconnected-(J10-Pad24)"
+      (pins J10-24)
+    )
+    (net "unconnected-(J10-Pad25)"
+      (pins J10-25)
+    )
+    (net "unconnected-(J10-Pad26)"
+      (pins J10-26)
+    )
+    (net "unconnected-(J10-Pad27)"
+      (pins J10-27)
+    )
+    (net "unconnected-(J10-Pad28)"
+      (pins J10-28)
+    )
+    (net "unconnected-(J10-Pad29)"
+      (pins J10-29)
+    )
+    (net "unconnected-(J10-Pad30)"
+      (pins J10-30)
+    )
+    (net "unconnected-(J10-Pad31)"
+      (pins J10-31)
+    )
+    (net "unconnected-(J10-Pad32)"
+      (pins J10-32)
+    )
+    (net "unconnected-(J11-Pad1)"
+      (pins J11-1)
+    )
+    (net "unconnected-(J11-Pad2)"
+      (pins J11-2)
+    )
+    (net "unconnected-(J11-Pad3)"
+      (pins J11-3)
+    )
+    (net "unconnected-(J11-Pad4)"
+      (pins J11-4)
+    )
+    (net "unconnected-(J11-Pad5)"
+      (pins J11-5)
+    )
+    (net "unconnected-(J11-Pad6)"
+      (pins J11-6)
+    )
+    (net "unconnected-(J11-Pad7)"
+      (pins J11-7)
+    )
+    (net "unconnected-(J11-Pad8)"
+      (pins J11-8)
+    )
+    (net "unconnected-(J11-Pad9)"
+      (pins J11-9)
+    )
+    (net "unconnected-(J11-Pad10)"
+      (pins J11-10)
+    )
+    (net "unconnected-(J11-Pad11)"
+      (pins J11-11)
+    )
+    (net "unconnected-(J11-Pad12)"
+      (pins J11-12)
+    )
+    (net "unconnected-(J11-Pad13)"
+      (pins J11-13)
+    )
+    (net "unconnected-(J11-Pad14)"
+      (pins J11-14)
+    )
+    (net "unconnected-(J11-Pad15)"
+      (pins J11-15)
+    )
+    (net "unconnected-(J11-Pad16)"
+      (pins J11-16)
+    )
+    (net "unconnected-(J11-Pad17)"
+      (pins J11-17)
+    )
+    (net "unconnected-(J11-Pad18)"
+      (pins J11-18)
+    )
+    (net "unconnected-(J11-Pad19)"
+      (pins J11-19)
+    )
+    (net "unconnected-(J11-Pad20)"
+      (pins J11-20)
+    )
+    (net "unconnected-(J11-Pad21)"
+      (pins J11-21)
+    )
+    (net "unconnected-(J11-Pad22)"
+      (pins J11-22)
+    )
+    (net "unconnected-(J11-Pad23)"
+      (pins J11-23)
+    )
+    (net "unconnected-(J11-Pad24)"
+      (pins J11-24)
+    )
+    (net "unconnected-(J11-Pad25)"
+      (pins J11-25)
+    )
+    (net "unconnected-(J11-Pad26)"
+      (pins J11-26)
+    )
+    (net "unconnected-(J11-Pad27)"
+      (pins J11-27)
+    )
+    (net "unconnected-(J11-Pad28)"
+      (pins J11-28)
+    )
+    (net "unconnected-(J11-Pad29)"
+      (pins J11-29)
+    )
+    (net "unconnected-(J11-Pad30)"
+      (pins J11-30)
+    )
+    (net "unconnected-(J11-Pad31)"
+      (pins J11-31)
+    )
+    (net "unconnected-(J11-Pad32)"
+      (pins J11-32)
+    )
+    (net CA0
+      (pins PL1-2 U5-40)
+    )
+    (net CA1
+      (pins PL1-3 U5-39)
+    )
+    (net CB0
+      (pins PL1-4 U5-18)
+    )
+    (net CB1
+      (pins PL1-5 U5-19)
+    )
+    (net "unconnected-(PL1-Pad16)"
+      (pins PL1-16)
+    )
+    (net PA0
+      (pins PL2-1 U5-2)
+    )
+    (net PA1
+      (pins PL2-2 U5-3)
+    )
+    (net PA2
+      (pins PL2-3 U5-4)
+    )
+    (net PA3
+      (pins PL2-4 U5-5)
+    )
+    (net PA4
+      (pins PL2-5 U5-6)
+    )
+    (net PA5
+      (pins PL2-6 U5-7)
+    )
+    (net PA6
+      (pins PL2-7 U5-8)
+    )
+    (net PA7
+      (pins PL2-8 U5-9)
+    )
+    (net PB0
+      (pins PL2-9 U5-10)
+    )
+    (net PB1
+      (pins PL2-10 U5-11)
+    )
+    (net PB2
+      (pins PL2-11 U5-12)
+    )
+    (net PB3
+      (pins PL2-12 U5-13)
+    )
+    (net PB4
+      (pins PL2-13 U5-14)
+    )
+    (net PB5
+      (pins PL2-14 U5-15)
+    )
+    (net PB6
+      (pins PL2-15 U5-16)
+    )
+    (net PB7
+      (pins PL2-16 U5-17)
+    )
+    (net "unconnected-(U1-Pad1)"
+      (pins U1-1)
+    )
+    (net "unconnected-(U1-Pad2)"
+      (pins U1-2)
+    )
+    (net "unconnected-(U1-Pad3)"
+      (pins U1-3)
+    )
+    (net "Net-(U1-Pad4)"
+      (pins U3-2 U1-4)
+    )
+    (net "Net-(U1-Pad10)"
+      (pins U3-4 U1-10)
+    )
+    (net "Net-(U1-Pad13)"
+      (pins U3-5 U1-13)
+    )
+    (net "Net-(U2-Pad6)"
+      (pins U3-10 U2-6)
+    )
+    (net "Net-(U2-Pad8)"
+      (pins U3-12 U2-8)
+    )
+    (net "Net-(U3-Pad13)"
+      (pins U3-6 U3-13)
+    )
+    (net "Net-(U3-Pad8)"
+      (pins U4-2 U3-8)
+    )
+    (net "~{CS2}"
+      (pins U4-4 U5-23)
+    )
+    (class kicad_default
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+    (class Power +5V GND
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 1000)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path B.Cu 250  142037 -132486  142799 -131724)(net GND)(type protect))
+    (wire (path B.Cu 250  142037 -135890  142037 -132486)(net GND)(type protect))
+    (wire (path F.Cu 250  142784 -131709  142128 -131709)(net GND)(type protect))
+    (wire (path F.Cu 250  142799 -131724  142784 -131709)(net GND)(type protect))
+    (wire (path F.Cu 250  141769 -130875  140828 -129934  140828 -129809)(net +5V)(type protect))
+    (wire (path F.Cu 250  145136 -130875  141769 -130875)(net +5V)(type protect))
+    (wire (path F.Cu 250  145136 -130875  145136 -135825)(net +5V)(type protect))
+    (wire (path F.Cu 250  151384 -130977  151486 -130875)(net +5V)(type protect))
+    (wire (path F.Cu 250  151384 -132791  151384 -130977)(net +5V)(type protect))
+    (wire (path B.Cu 1000  154788 -132791  156667 -130912)(net +5V)(type protect))
+    (wire (path B.Cu 1000  151384 -132791  154788 -132791)(net +5V)(type protect))
+    (wire (path B.Cu 1000  151384 -132791  149504 -130912  144272 -130912)(net +5V)(type protect))
+    (wire (path F.Cu 1000  145099 -130912  145136 -130875)(net +5V)(type protect))
+    (wire (path F.Cu 1000  144272 -130912  145099 -130912)(net +5V)(type protect))
+    (wire (path F.Cu 1000  157517 -130912  157531 -130926)(net +5V)(type protect))
+    (wire (path B.Cu 1000  185217 -130962  156718 -130962)(net +5V)(type protect))
+    (wire (path B.Cu 1000  186792 -129388  185217 -130962)(net +5V)(type protect))
+    (wire (path B.Cu 1000  156718 -130962  156667 -130912)(net +5V)(type protect))
+    (wire (path B.Cu 1000  186995 -129388  186792 -129388)(net +5V)(type protect))
+    (wire (path F.Cu 1000  156667 -130912  157517 -130912)(net +5V)(type protect))
+    (wire (path F.Cu 1000  190094 -102159  190094 -126289)(net +5V)(type protect))
+    (wire (path F.Cu 1000  187554 -143916  187503 -143866)(net +5V)(type protect))
+    (wire (path F.Cu 1000  190094 -141376  187554 -143916)(net +5V)(type protect))
+    (wire (path F.Cu 1000  190094 -126289  186995 -129388  190094 -132486  190094 -141376)(net +5V)(type protect))
+    (wire (path F.Cu 1000  187503 -143866  185268 -143866)(net +5V)(type protect))
+    (wire (path B.Cu 1000  188316 -130912  183337 -135890  166878 -135890)(net GND)(type protect))
+    (wire (path B.Cu 1000  189078 -105461  188316 -106223  188316 -130912)(net GND)(type protect))
+    (wire (path B.Cu 1000  142037 -135890  138328 -135890)(net GND)(type protect))
+    (wire (path B.Cu 1000  153873 -135890  142037 -135890)(net GND)(type protect))
+    (wire (path F.Cu 1000  137377 -135890  137312 -135825)(net GND)(type protect))
+    (wire (path F.Cu 1000  138328 -135890  137377 -135890)(net GND)(type protect))
+    (wire (path F.Cu 1000  152821 -135890  152756 -135825)(net GND)(type protect))
+    (wire (path F.Cu 1000  153873 -135890  152821 -135890)(net GND)(type protect))
+    (wire (path B.Cu 1000  166878 -135890  153873 -135890)(net GND)(type protect))
+    (wire (path F.Cu 1000  166878 -135890  165165 -135890  165151 -135876)(net GND)(type protect))
+    (wire (path B.Cu 1000  186482 -108047  178709 -108047)(net GND)(type protect))
+    (wire (path B.Cu 1000  186487 -108052  186482 -108047)(net GND)(type protect))
+    (wire (path B.Cu 1000  189078 -105461  186487 -108052)(net GND)(type protect))
+    (wire (path B.Cu 1000  186792 -56134  189078 -58420  189078 -105461)(net GND)(type protect))
+    (wire (path F.Cu 1000  132989 -125329  132989 -123287)(net +5V)(type protect))
+    (wire (path F.Cu 1000  129692 -128626  132989 -125329)(net +5V)(type protect))
+    (wire (path F.Cu 1000  129692 -130875  129692 -128626)(net +5V)(type protect))
+    (wire (path F.Cu 1000  110287 -130810  129627 -130810)(net +5V)(type protect))
+    (wire (path F.Cu 1000  108458 -132639  110287 -130810)(net +5V)(type protect))
+    (wire (path F.Cu 1000  108458 -146406  108458 -132639)(net +5V)(type protect))
+    (wire (path F.Cu 1000  129627 -130810  129692 -130875)(net +5V)(type protect))
+    (wire (path F.Cu 1000  183998 -146964  109017 -146964  108458 -146406)(net +5V)(type protect))
+    (wire (path F.Cu 1000  185268 -145694  183998 -146964)(net +5V)(type protect))
+    (wire (path F.Cu 1000  185268 -143866  185268 -145694)(net +5V)(type protect))
+    (wire (path B.Cu 1000  96621.6 -98196.4  96621.6 -108204)(net GND)(type protect))
+    (wire (path B.Cu 1000  96621.6 -56134  96621.6 -98196.4)(net GND)(type protect))
+    (wire (path B.Cu 1000  146609 -101854  142951 -98196.4  96621.6 -98196.4)(net GND)(type protect))
+    (wire (path F.Cu 1000  123393 -108052  124983 -108052)(net GND)(type protect))
+    (wire (path B.Cu 1000  123241 -108204  123393 -108052)(net GND)(type protect))
+    (wire (path B.Cu 1000  96621.6 -108204  96621.6 -138989)(net GND)(type protect))
+    (wire (path B.Cu 1000  96621.6 -108204  123241 -108204)(net GND)(type protect))
+    (wire (path F.Cu 1000  126888 -108047  126883 -108052)(net +5V)(type protect))
+    (wire (path F.Cu 1000  130449 -108047  126888 -108047)(net +5V)(type protect))
+    (wire (path F.Cu 1000  189789 -101854  190094 -102159)(net +5V)(type protect))
+    (wire (path F.Cu 1000  182169 -101854  189789 -101854)(net +5V)(type protect))
+    (wire (path F.Cu 1000  190094 -55067.2  190094 -102159)(net +5V)(type protect))
+    (wire (path B.Cu 1000  101498 -143866  111608 -143866)(net GND)(type protect))
+    (wire (path B.Cu 1000  96621.6 -138989  101498 -143866)(net GND)(type protect))
+    (wire (path F.Cu 1000  188620 -53594  190094 -55067.2)(net +5V)(type protect))
+    (wire (path F.Cu 1000  186792 -53594  188620 -53594)(net +5V)(type protect))
+    (wire (path B.Cu 1000  96621.6 -56134  186792 -56134)(net GND)(type protect))
+    (wire (path F.Cu 1000  96621.6 -53594  186792 -53594)(net +5V)(type protect))
+    (via "Via[0-1]_800:400_um"  151384 -132791 (net +5V)(type protect))
+    (via "Via[0-1]_800:400_um"  144272 -130912 (net +5V)(type protect))
+    (via "Via[0-1]_800:400_um"  156667 -130912 (net +5V)(type protect))
+    (via "Via[0-1]_800:400_um"  186995 -129388 (net +5V)(type protect))
+    (via "Via[0-1]_800:400_um"  142799 -131724 (net GND)(type protect))
+    (via "Via[0-1]_800:400_um"  138328 -135890 (net GND)(type protect))
+    (via "Via[0-1]_800:400_um"  153873 -135890 (net GND)(type protect))
+    (via "Via[0-1]_800:400_um"  166878 -135890 (net GND)(type protect))
+    (via "Via[0-1]_800:400_um"  123393 -108052 (net GND)(type protect))
+  )
+)
