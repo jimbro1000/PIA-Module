@@ -1129,7 +1129,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x32") (at 184.785 86.233 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 431633af-4b85-4c03-9a12-937fccd88c66)
     (property "Reference" "J8" (id 0) (at 186.817 86.2329 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1178,7 +1178,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x32") (at 118.237 86.487 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 57e9667e-53e7-4bc1-8139-8506000e5711)
     (property "Reference" "J5" (id 0) (at 120.269 86.4869 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1245,7 +1245,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x32") (at 228.727 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6a424042-4b4a-4ce2-9e94-53c632295e05)
     (property "Reference" "J10" (id 0) (at 230.759 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1341,7 +1341,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x32") (at 162.687 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a0a32440-a60c-484a-8007-024554e2ebe0)
     (property "Reference" "J7" (id 0) (at 164.719 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1390,7 +1390,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x32") (at 97.028 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid b5583a77-a24f-4729-a3dc-4c787f85d54c)
     (property "Reference" "J4" (id 0) (at 99.06 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1439,7 +1439,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x32") (at 250.444 86.233 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid b8f0f1f7-e8aa-45a0-90a7-5e9b8a7806c4)
     (property "Reference" "J11" (id 0) (at 252.476 86.2329 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1517,7 +1517,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x32") (at 205.994 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e679d922-8824-4c69-98d5-ad06e4956d9b)
     (property "Reference" "J9" (id 0) (at 208.026 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1566,7 +1566,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x32") (at 140.97 86.487 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid f181db5f-4009-4eae-b57a-91d4fb755cd0)
     (property "Reference" "J6" (id 0) (at 143.002 86.4869 0)
       (effects (font (size 1.27 1.27)) (justify left))
