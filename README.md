@@ -32,8 +32,18 @@ board along with +5V and GND.
 The available signal lines are CPU clock
 and switched control bits Q1-Q7
 
-The PIA is addressable at $FF00 through to
-$FF03
+## Addressing
+
+By default the PIA is addressable at $xx00 
+through to $xx03. Optionally the addressing
+can be modified to sit at $xx04 (to $xx07).
+
+The value of xx is determined and managed by
+the "mapped memory" signal line, this is
+expected to be set to $FF00, so the default
+PIA address is $FF00.
+
+Each PIA block offers four registers:
 
 * $FF00 = PIA Data Register A (PA0-PA7) or
 Data Direction Register A
